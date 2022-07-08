@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - NFT preview card component
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
@@ -90,3 +91,7 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+# NFT-Card
+NFT Card preview in HTML and CSS
+>>>>>>> 988365bbd48c316c81041546f9d82da586d8c612
