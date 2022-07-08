@@ -1,0 +1,197 @@
+/* Estilos en order
+1- Posisonamiento
+2- Modelo de caja (Box-model)
+3- Tipografia
+4- Visuales
+5- Otros
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #0d1a2d;
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    width: 85%;
+    max-width: 300px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: #0d1a2d;
+}
+
+section {
+    margin: 0 auto;
+    margin-top: 25px;
+    width:87%;
+    max-width: 240px;
+    height: 390px;
+    border-radius: 10px;
+    background-color: #15273f;
+}
+
+section .main__img {
+    display: inline-block;
+    width: 85%;
+    min-width: 200px;
+    max-width: 200px;
+    /* min-width: 290px; */
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 18px;
+    margin-left: 18px;
+    border-radius: 10px;
+    background-image: url('https://i.postimg.cc/FzD3xNYx/image-equilibrium.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__container__title {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.main__container__title h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+}
+
+.main__container__title p {
+    color: #617692;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.main__container__text {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.main__container__text .eth {
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #6cf6fa;
+
+}
+
+.eth-icon {
+    display: inline-block;
+    width: 8px;
+    height: 13px;
+    background-image: url('/images/icon-ethereum.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
+}
+
+.main__container__text p {
+    color: #617692;
+    margin-left: 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.clock {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-image: url('/images/icon-clock.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
+}
+
+hr {
+   border: none;
+   border-bottom: 2px solid #24364e;
+   /* margin-bottom: 1px; */
+   padding: 5px;
+   width: 85%;
+    margin: 0 auto;
+   /* color: #24364e; */
+}
+
+
+.container__user {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 30px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #6e83a2;
+}
+
+.container__user .container__user__profile {
+    display: block;
+    position: relative;
+    left: 13px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-image: url('https://i.postimg.cc/VL4PXTDL/image-avatar.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container__user__name {
+    align-self: center;
+    margin-right: 8px;
+}
+
+.container__user__name b {
+    color: white;
+}
+
+.attribution {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: white;
+    padding-top: 5px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: rgb(193, 207, 235);
+}
+
+
+@media (min-width: 600px) {
+    main {
+        margin-top: 100px;
+    }
+
+    .attribution {
+        display: flex;
+        justify-content: center;
+        font-size: 1.9rem;
+        line-height: 2.1rem;
+    }
+}
